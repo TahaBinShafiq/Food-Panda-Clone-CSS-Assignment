@@ -33,12 +33,6 @@ body {
     align-items: center;
 }
 
-.foodpanda {
-    font-size: 25px;
-    margin-left: 7px;
-    font-family: Open Sans, arial, sans-serif;
-    color: #FF2B85;
-}
 
 .btn-side {
     margin-right: 40px;
@@ -520,8 +514,23 @@ body {
             justify-content: left;
             flex-direction: column;
             align-items: center;
-            height: 80px;
-        }    
+            height: 90px;
+        }  
+        
+        .logo {
+            margin-left: 109px;
+            display: flex;
+            align-items: center;
+
+        }
+
+        .underline{
+            margin: 10px 0px 0px 32px;
+            width: 300px;
+            border:1px solid rgb(235, 231, 231);
+        }
+
+        
 
         .btn-side{
              
@@ -529,7 +538,8 @@ body {
             flex-direction: row;
             align-items: center;
             padding-top: 10px;
-            margin-left: 10px;
+            margin-left: 30px;
+            gap: 6px;
         }
       
 }
