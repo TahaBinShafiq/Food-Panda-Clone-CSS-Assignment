@@ -520,15 +520,16 @@ body {
             justify-content: left;
             flex-direction: column;
             align-items: center;
+            height: 80px;
         }    
 
         .btn-side{
-            display: block;
-            justify-content: right;
-            flex-direction: column;
+             
+            justify-content: left;
+            flex-direction: row;
             align-items: center;
-            gap: 20px;    
-        
+            padding-top: 10px;
+            margin-left: 10px;
         }
       
 }
